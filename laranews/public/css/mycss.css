@@ -1,0 +1,60 @@
+trix-toolbar [data-trix-button-group="file-tools"] {
+    display: none;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.breadcrumb-option {
+    background-color: #1d4e56 !important;
+}
+
+.datepicker {
+    font-size: 13px;
+}
+
+.sd-color {
+    background-color: #0c5c31 !important;
+    color: white;
+}
+.ds-color {
+    background-color: #0c5c31;
+    color: white;
+}
+
+#main {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+#main td {
+    text-align: left;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid black;
+}
+#main {
+    border-collapse: collapse;
+}
+
+.card-top-border-success {
+    border-top: 5px solid #0c5c31; /* Bootstrap success color */
+}
+
+.nav-link.active {
+    background-color: orange !important;
+    color: white !important;
+}
